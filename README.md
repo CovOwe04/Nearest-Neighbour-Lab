@@ -8,11 +8,9 @@ This project focuses on algorithm correctness, efficiency, and clean separation 
 
 ## 📌 Project Overview
 
-The **Nearest Neighbour algorithm** is a greedy approach that essentially creates a 3 graph with multiple points using a test file with information, is tested with a file with proper labels, and the contains a file with unknown labels to attempt to correctly label that data
+The **Nearest Neighbour algorithm** is an approach that essentially creates a 3D graph with multiple points (X, Y, Z) using a test file with information to fill this graph, is tested with a file with correct labels, and the contains a file with data but no labels to attempt to correctly label that data and output a file with the determined labels
 
-- Route approximation (e.g., Travelling Salesperson Problem)
-- Spatial search and clustering
-- Baseline heuristics for optimization problems
+- Basic Nearest Neighbour Algorithm
 
 This lab implements the algorithm entirely in **C++**, emphasizing manual control over data structures and execution flow.
 
